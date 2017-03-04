@@ -1,0 +1,31 @@
+﻿using UnityEngine;
+using System.Collections;
+
+[System.Serializable]
+
+public class BaseEquipment : BaseStatItem {
+
+	public enum EquipmentTypes {
+		HEAD,
+		CHEST,
+		SHOULDER,
+		LEGS,
+		FEET,
+		NECK,
+		EARRING,
+		RING
+	}
+
+	private EquipmentTypes equipmentType;
+	private int spellEffectID;
+
+	public EquipmentTypes EquipmentType{
+		get{ return equipmentType; }
+		set{ equipmentType = value; }
+	}
+
+	public int SpellEffectID {
+		get{ return spellEffectID; }
+		set{ spellEffectID = value; }
+	}
+}
