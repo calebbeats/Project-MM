@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\FollowPlayer.cs" />
-     <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\MusicManager.cs" />
      <Compile Include="Assets\ObjectCollision.cs" />
      <Compile Include="Assets\Player Movement\AttachCamera.cs" />
      <Compile Include="Assets\Player Movement\PlayerController.cs" />
@@ -64,7 +64,9 @@
      <Compile Include="Assets\Scripts\Items\BaseStatItem.cs" />
      <Compile Include="Assets\Scripts\Items\BaseWeapon.cs" />
      <Compile Include="Assets\Scripts\Items\CreateNewWeapon.cs" />
+     <Compile Include="Assets\Scripts\LoadGame.cs" />
      <Compile Include="Assets\Scripts\LoadInformationToScene.cs" />
+     <Compile Include="Assets\Scripts\Options.cs" />
      <Compile Include="Assets\Scripts\SavingAndLoading\LoadInformation.cs" />
      <Compile Include="Assets\Scripts\SavingAndLoading\PPSerialization.cs" />
      <Compile Include="Assets\Scripts\SavingAndLoading\SaveInformation.cs" />
